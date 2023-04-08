@@ -3,7 +3,21 @@
     font-family: 'Signika', sans-serif;
     text-align: center;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+.cuotas {
+    display:inline-block;
+    border: 5px solid black;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }
+  
+
+
 
 .body {
     background-color: rgb(255, 255, 255);
@@ -19,7 +33,7 @@ img {
 }
 
 header {
-    display: flex;
+    
     justify-content: space-around;
     background-color: rgb(255, 255, 255);
     border-radius: 2em 2em 0em 0em;
@@ -439,3 +453,114 @@ span {
 
 
 /* cierre del segundo punto de corte  */
+
+
+/* Navbar */
+  /* Navbar styles */
+  .navbar {
+    
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+
+  .navbar a {
+    color: #ffffff;
+  }
+
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+
+  .navbar .active {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .navbar .dropdown-menu {
+    background-color: #1a1a1a;
+    border: none;
+  }
+
+  .navbar .dropdown-item {
+    color: #ffffff;
+  }
+
+  .navbar .dropdown-item:hover {
+    background-color: #2e2e2e;
+  }
+
+  /* Logo styles */
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  /* ------------------------------- */
+  /* Estilo para las tarjetas */
+.card {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+  }
+  
+  /* Estilo para la imagen */
+  .card-img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilo para el cuerpo de la tarjeta */
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Estilo para el título */
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para el botón */
+  .btn {
+    display: block;
+    width: 100%;
+  }
+  
+  /* Estilo para el contenedor de tarjetas */
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Estilo para las tarjetas secundarias */
+  .card-secondary {
+    width: 40%;
+    height: 0;
+    padding-bottom: 60%;
+  }
+  
+  /* Estilo para la imagen de las tarjetas secundarias */
+  .card-secondary .card-img-top {
+    height: 60%;
+    object-fit: cover;
+  }
+
+
+  /* Segunda portada */
+  .card-container2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+/* ZOOM IN  */
+.zoom-in {
+    transform: scale(1.1);
+  }
